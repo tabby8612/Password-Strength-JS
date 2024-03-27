@@ -2,13 +2,6 @@ const pass = document.getElementById("password");
 const msg = document.getElementById("message");
 const str = document.getElementById("strength");
 
-
-
-
-
-
-
-
 pass.addEventListener("input", () => {
     if (pass.value.length > 0) {
         msg.style.display = "block";
